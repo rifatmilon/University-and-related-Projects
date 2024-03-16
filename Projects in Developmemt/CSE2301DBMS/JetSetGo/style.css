@@ -188,8 +188,102 @@ body {
   opacity: 0;
 }
 
-/* Index 0x4:  */
-/* Index 0x4:  */
-/* Index 0x4:  */
-/* Index 0x4:  */
-/* Index 0x4:  */
+/* Index 0x4: Explore Section Style */
+.explore-section {
+  position: relative;
+  width: 100%;
+  padding: 80px 10vw;
+  color: #fff;
+}
+
+.section-title {
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.section-para {
+  width: 50%;
+  min-width: 300px;
+  display: block;
+  margin: 30px auto;
+  text-align: center;
+  line-height: 25px;
+  opacity: 0.6;
+}
+
+.tours-container {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin-top: 100px;
+}
+
+.tour-card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0;
+  overflow: hidden;
+  padding: 10px;
+  display: flex;
+  align-items: end;
+}
+
+.tour-card:nth-child(2) {
+  grid-row: span 2;
+}
+
+.tour-card:last-child {
+  grid-column: span 2;
+}
+
+.tour-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: .5s;
+  z-index: -1;
+}
+
+.tour-card:hover .tour-img {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+.tour-name {
+  font-weight: 300;
+}
+
+.tour-action {
+  margin-left: 20px;
+  font-size: 14px;
+  position: relative;
+}
+
+.tour-action::before {
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: 2px;
+  background: url('img/pin.png');
+  width: 15px;
+  height: 15px;
+  background-size: contain;
+}
+
+/* Index 0x5:  */
+
+
+/* Index 0x6:  */
+/* Index 0x7:  */
+/* Index 0x8:  */
