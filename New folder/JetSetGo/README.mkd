@@ -1,0 +1,34 @@
+# JetSetGo: The Easiest Flight Booking Web Application!
+# Fly Safe. 
+# 404 : This page is on an adventure, be back soon!
+    This page is undergoing maintenance. We're building something amazing for you! Please excuse the inconvenience. Don't worry, it's coming soon!
+
+## PROJECT PROPOSAL:
+
+# JetSetGo: A Comprehensive Flight Booking Platform with User-Centric Features
+
+# Project Overview:
+JetSetGo is an innovative flight booking website designed to provide a smooth and satisfying travel experience for users of all travel styles and budgets. Utilizing modern web technologies and a user-centric approach, JetSetGo offers a comprehensive suite of features, aiming to simplify the flight booking process, provide competitive pricing, and enhance the overall travel experience.
+
+# Key Features:
+    * Extensive Flight Search: Enables users to search for flights across various airlines and destinations,    incorporating flexible filters for dates, times, prices, layovers, baggage allowances, and more.
+    * Integrated Price Comparison: Compares prices from diverse airlines and travel agents to ensure users find the most cost-effective flight options.
+    * Streamlined Booking Management: Offers a user-friendly platform to manage bookings, including confirmation emails, real-time flight status updates, and online check-in capabilities.
+    * Personalized User Accounts: Users can create accounts to store travel preferences, track past bookings, and receive personalized notifications about deals and flight changes.
+    * Engaging Community Features: Empowers users to read and write flight reviews, which helps users make well-informed decisions and builds a sense of community on the platform.
+    * Rewarding Loyalty Program: Implements a loyalty program that provides special benefits and discounts to frequent travelers, encouraging continued engagement and brand loyalty.
+
+# Target Audience:
+    JetSetGo caters to a broad spectrum of travelers, including:
+        * Budget-conscious individuals seeking affordable travel options.
+        * Frequent flyers who value convenience and rewards.
+        * Vacationers looking for an easy-to-use platform to organize their trips.
+        * Tools for effective booking and management are necessary for business travelers.
+
+# Technical Framework:
+    * Frontend: HTML, XML, CSS, SCSS, Bootstrap, JavaScript (potentially with jQuery)
+    * Backend: PHP, JavaScript, MySQL
+    * Servers: PHP Web Server, XAMPP Database Server
+
+# Project Significance:
+JetSetGo addresses the need for a user-friendly and feature-rich flight booking platform that caters to diverse travel needs and preferences. By integrating advanced search capabilities, personalized features, and a rewarding loyalty program, JetSetGo aims to enhance the Flight Booking experience for all users.

@@ -1,7 +1,7 @@
 # JetSetGo: The Easiest Flight Booking Web Application!
 # Fly Safe. 
 # 404 : This page is on an adventure, be back soon!
-    This page is undergoing maintenance. We're building something amazing for you! Please excuse the inconvenience. Don't worry, it's coming soon!
+    This page is undergoing maintenance. rifatmilon building something amazing for you! Please excuse the inconvenience. Don't worry, it's coming soon!
 
 ## PROJECT PROPOSAL:
 

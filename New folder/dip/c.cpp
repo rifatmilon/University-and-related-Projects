@@ -4,6 +4,40 @@
 #include <numeric>
 #include <map>
 
+int main()
+{
+    const int rows = 8;
+    const int cols = 8;
+
+    std::vector<std::pair<int, int>> illumination_values1 = {{3, 4}, {4, 4}, {5, 4}, {3, 5}, {4, 5}, {5, 5}, {6, 5}, {5, 6}, {6, 6}};
+    std::vector<std::vector<int>> matrix = create_matrix(rows, cols, illumination_values1);
+    double m10, m01, m00;
+    std::tie(m10, m01, m00) = calculate_moments(illumination_values1);
+
+    std::cout << "For Shape 1:\n";
+    print_matrix(matrix);
+    print_moments(m10, m01, m00);
+    print_rotation(rotation(m00, m10, m01));
+
+    std::vector<std::pair<int, int>> illumination_values2 = {{4, 2}, {4, 3}, {3, 4}, {4, 4}, {5, 4}, {3, 5}, {4, 5}, {5, 5}, {6, 5}, {5, 6}, {6, 6}};
+    std::vector<std::vector<int>> matrix2 = create_matrix(rows, cols, illumination_values2);
+    std::tie(m10, m01, m00) = calculate_moments(illumination_values2);
+
+    std::cout << "\nFor Shape 2:\n";
+    print_matrix(matrix2);
+    print_moments(m10, m01, m00);
+    print_rotation(rotation(m00, m10, m01));
+
+    // Example moment vectors for comparison
+    std::vector<double> shape1_moment = {41, 44, 9, 345.679012345679, 336.19753086419746, -56.0109739369, -395.76406035665315, 1.3827160493827026, -19.204389574760093, 681.8765432098764, 97.5461057765591, 15.053411385271506, 282867.54540955665, 199143227.10978642, 2793753.5349092106, 439056951.9862907};
+    std::vector<double> shape2_moment = {49, 49, 11, 336.1322314049587, 336.1322314049585, 45.824192336589384, 45.824192336589434, 0.13223140495868257, 15.278737791134624, 672.2644628099172, 0.06994057782938841, 0.00028901065218919384, 7467.13614038705, -9.89530235528946e-10, 1974.7798057222678, -10969.530226093655};
+
+    std::cout << "\nComparison:\n";
+    comparison(shape1_moment, shape2_moment);
+
+    return 0;
+}
+
 std::vector<std::vector<int>> create_matrix(int rows, int cols, const std::vector<std::pair<int, int>> &illumination_values)
 {
     std::vector<std::vector<int>> matrix(rows, std::vector<int>(cols, 0));
