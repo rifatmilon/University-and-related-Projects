@@ -1,0 +1,65 @@
+/*Style sheet for Signup Page*/
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(signup.jpg);
+    background-repeat: auto;
+  }
+  
+  button { 
+      background-color: rgb(13, 222, 229);
+      width: 100%;
+      color: black;
+      padding: 15px;
+      margin: 10px 0px;
+      border: none;
+      cursor: pointer;
+  }
+  
+  form {
+      width: 46%;
+      border: none;
+  }
+  
+  input[type=text], input[type=password] {
+      width: 100%;
+      margin: 8px;
+      padding: 3px 5px;
+      display: inline-block;
+      border: 2px solid white;
+      box-sizing: border-box;
+  }
+  
+  input[type=int] {
+      width: 100%;
+      margin: 8px;
+      padding: 3px 5px;
+      display: inline-block;
+      border: 2px solid white;
+      box-sizing: border-box;
+  }
+  
+  button:hover {
+    opacity: 0.7;
+  }
+  
+  .cancelButton {
+    width: 40%;
+    padding: 10px;
+    margin: 10px 5px;
+  }
+  
+  .signup {
+      padding: 20px;
+      background-color: #e1e5e7;
+    }
+  
+  .signup form .error-msg {
+    margin: 10px 0px;
+    display:block;
+    background: red;
+    color:aliceblue;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 7px;
+  }

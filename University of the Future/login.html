@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Login Page</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <center><h1>Sign in your account</h1></center>
+    <br /><br /><br /><br /><br /><br /><br /><br />
+    <form action="login.php" method="post" enctype="multipart/form-data">
+      <div class="login">
+        <lebel> Email: </lebel>
+        <input
+          type="text"
+          placeholder="Enter your email address"
+          name="email"
+          required
+        />
+        <lebel> Password: </lebel>
+        <input
+          type="password"
+          placeholder="Enter your password"
+          name="password"
+          required
+        />
+        <input type="checkbox" checked="checked" /> Remember Login Details
+        <br />
+        <button type="submit"><a href="indexZero.html"></a>Login</button>
+        <center>
+          <p>
+            Don't have an account? <a href="register.html"> Resister now! </a>
+          </p>
+        </center>
+        <br />
+      </div>
+    </form>
+    <script src="login.js"></script>
+  </body>
+</html>

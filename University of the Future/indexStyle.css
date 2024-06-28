@@ -1,0 +1,22 @@
+/*CSS for the UNIVERSITY OF THE FUTURE*/
+.servicesBG {
+    background-color: rgb(72, 71, 71);
+    background-image: url("Resourses/2.jpg");
+}
+.aboutBG {
+    background-color: rgb(72, 71, 71);
+    background-image: url("Resourses/bgOne.jpg");
+}
+.testimonialsBG {
+    background-color: aliceblue;
+    background-image: url("Resourses/bgOne.jpg");
+}
+.applyBG {
+    background-color: aliceblue;
+    background-image: url("Resourses/services.jpg");
+}
+
+.FactsBG {
+    background-color: rgb(47, 52, 51);
+    background-image: url("Resourses/ser.jpg");
+}

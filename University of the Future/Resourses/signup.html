@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="signup.css"> 
+</head>
+<body>  
+  <center><h1>Signup Form</h1></center>
+  <center><p><small>It's quick, simple & easy!</small></p></center>
+  <br><br><br><br><br><br>
+  <form action="signup.php"  method="post" enctype="multipart/form-data">
+    <div class = "signup">
+      <lebel> First Name: </lebel>
+      <input type="text" placeholder="Enter your first name" name="firstName" required>
+      <lebel> Surname: </lebel>
+      <input type="text" placeholder="Enter your surname" name="surname" required>
+      <lebel> Email: </lebel>
+      <input type="text" placeholder="Enter your email address" name="email" required>
+      <lebel> Contact No: </lebel>
+      <input type="text" placeholder="Enter your contact number" name="contactNo" required>
+      <lebel> Blood Group: </lebel>
+      <input type="text" placeholder="Enter your blood group" name="bloodgroup" required>
+      <lebel> New Password: </lebel>
+      <input type="text" placeholder="Enter your password" name="password" required>
+      <lebel> Re-enter Password: </lebel>
+      <input type="text" placeholder="Enter your password" name="rePassword" required>
+      <br>
+      <lebel> Gender: </lebel>
+      <input type = "radio" name = "gender" value="male">Male
+      <input type = "radio" name = "gender" value="female">Female
+      <br>
+      <button type="submit">Sign Up</button>
+      <center><p> Already registerd? <a href="login.html"> Go to Login page! </a></p></center>
+      <br>
+    </div>
+    </form>
+</body>
+</html>
